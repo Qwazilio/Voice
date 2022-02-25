@@ -51,5 +51,4 @@ if __name__ == "__main__":
         voice_input = record_and_recognize_audio()
         os.remove("result-record.wav")
 
-
         print(voice_input)
